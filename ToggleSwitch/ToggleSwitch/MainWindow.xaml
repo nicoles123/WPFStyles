@@ -1,0 +1,25 @@
+﻿<Window x:Class="ToggleSwitch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToggleSwitch"
+        WindowStyle="None"
+        ResizeMode="CanMinimize"
+        Background="White"
+        WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d" 
+        Title="AnimWindow" >
+
+    <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Background="#1F1E33" >
+        <Grid Height="535" x:Name="LayoutRoot">
+            <!--<Image x:Name="on_icon" Width="595" Height="80" Visibility="{Binding Path=ImgVisible}"  Source="..\Resources\ic_on_new2.png"/>-->
+            <Button Canvas.ZIndex="4" x:Name="btnSwitch" Background="Transparent"  BorderThickness="0"
+                Width="220" Height="220" Cursor="Hand">
+                <Grid x:Name="HomepageText" VerticalAlignment="Center" HorizontalAlignment="Center">
+
+                </Grid>
+            </Button>
+        </Grid>
+    </StackPanel>
+</Window>
