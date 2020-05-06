@@ -1,7 +1,6 @@
 # WPFStyles
 
-#Now have two styles
+Now have two styles
 
-#A ripple button animation effect
-
-#A toggle button
+A ripple button animation effect
+A toggle button
